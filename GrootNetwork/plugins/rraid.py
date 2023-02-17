@@ -99,17 +99,17 @@ def get_text(message: Message) -> [None, str]:
 
 @Client.on_message(command(["replyraid", "rraid", "rrr"]) & SUDOERS)
 async def replyramd(client: Client, message: Message):
-    Groot = await message.reply_text("`Processing..`")
+    Rocket = await message.reply_text("`Processing..`")
     text_ = get_text(message)
     user, reason = get_user(message, text_)
     failed = 0
     if not user:
-        await Groot.edit("`Reply To User Or Mention To Activate Replyraid `")
+        await Rocket.edit("`Reply To User Or Mention To Activate Replyraid `")
         return
     try:
         userz = await client.get_users(user)
     except:
-        await Groot.edit(f"`404 : User Doesn't Exists In This Chat !`")
+        await Rocket.edit(f"`404 : User Doesn't Exists In This Chat !`")
         return
     if not reason:
         reason = "Private Reason!"
