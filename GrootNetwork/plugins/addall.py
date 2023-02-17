@@ -1,10 +1,10 @@
 import asyncio
 from pyrogram import Client, filters 
 from pyrogram.types import Message
-from AdityaHalder.modules.helpers.basics import edit_or_reply
-from AdityaHalder.modules.helpers.filters import command
-from AdityaHalder.modules.helpers.command import commandpro
-from AdityaHalder.utilities.misc import SUDOERS
+from GrootNetwork.modules.helpers.basics import edit_or_reply
+from GrootNetwork.modules.helpers.filters import command
+from GrootNetwork.modules.helpers.command import commandpro
+from GrootNetwork.utilities.misc import SUDOERS
 
 
 @Client.on_message(command(["addall", "inviteall"]) & SUDOERS)
