@@ -1,6 +1,6 @@
 from GrootNetwork.modules.databases import cli
 
-collection = cli["groot"]["gmute"]
+collection = cli["Rocket"]["gmute"]
 
 
 async def gmute_user(chat):
