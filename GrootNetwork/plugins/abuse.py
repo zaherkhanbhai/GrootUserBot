@@ -12,9 +12,9 @@ GALINAKODUKU = "𝗡𝗶 𝗽𝗲𝗹𝗹𝗮𝗺 𝗴𝘂𝗱𝗱𝗵𝗮𝗹�
 
 @Client.on_message(commandpro(["lanjapuk"]) & SUDOERS)
 async def lanja_puk(client: Client, message: Message):
-    Groot = await edit_or_reply(message, "🤣 Arey Thammudu Agara 😁 ...")
+    rocket = await edit_or_reply(message, "🤣 Arey Thammudu Agara 😁 ...")
     await asyncio.sleep(2)
-    await Groot.edit(GALINAKODUKU)
+    await rocket.edit(GALINAKODUKU)
     
     
 __MODULE__ = "☆ ᴀʙᴜsᴇ ☆"
