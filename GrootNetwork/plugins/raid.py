@@ -22,7 +22,7 @@ async def watch_raids(client: Client, message: Message):
     if not message.from_user:
         return
     user = message.from_user.id
-    groot = random.choice(REPLY_RAID)
+    rocket = random.choice(REPLY_RAID)
     love = random.choice(LOVER_RAID)
     if int(user) in VERIFIED_USERS:
         return
@@ -32,7 +32,7 @@ async def watch_raids(client: Client, message: Message):
         return
     if await grootub_info(user):
         try:
-            await message.reply_text(groot)
+            await message.reply_text(rocket)
         except:
             return
     if await loveub_info(user):
