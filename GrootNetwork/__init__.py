@@ -9,7 +9,7 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from rich.console import Console
 from rich.table import Table
-from motor.motor_asyncio import AsyncIOMotorClient as GrootXD
+from motor.motor_asyncio import AsyncIOMotorClient as RocketXD
 
 from GrootNetwork.config import MONGO_DB_URL, LOG_GROUP_ID, OWNER_ID, STRING_SESSION, SUDO_USERS, UPSTREAM_BRANCH, UPSTREAM_REPO
 from GrootNetwork.modules.clientbot.clientbot import client, robot, pytgcalls
@@ -31,7 +31,7 @@ MOD_LOAD = []
 MOD_NOLOAD = []
 
 ### Mongo DB
-MONGODB_CLI = GrootXD(MONGO_DB_URL)
+MONGODB_CLI = RocketXD(MONGO_DB_URL)
 db = MONGODB_CLI.Groot
 
 ### Sudo Users
