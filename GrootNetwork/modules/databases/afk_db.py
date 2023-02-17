@@ -1,7 +1,7 @@
 import asyncio
 from GrootNetwork.modules.databases import cli
 
-collection = cli["groot"]["afk"]
+collection = cli["Rocket"]["afk"]
 
 
 async def set_afk(afk_status, afk_since, reason):
