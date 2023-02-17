@@ -32,7 +32,7 @@ MOD_NOLOAD = []
 
 ### Mongo DB
 MONGODB_CLI = GrootXD(MONGO_DB_URL)
-db = MONGODB_CLI.Aditya
+db = MONGODB_CLI.Groot
 
 ### Sudo Users
 sudo()
