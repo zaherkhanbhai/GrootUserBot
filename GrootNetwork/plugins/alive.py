@@ -7,7 +7,7 @@ from GrootNetwork.modules.helpers.filters import command
 from GrootNetwork.utilities.misc import SUDOERS
 
 
-@Client.on_message(command(["Groot"]) & SUDOERS)
+@Client.on_message(command(["groot"]) & SUDOERS)
 async def lanja_puk(client: Client, message: Message):
     await edit_or_reply(message, "**🌱 I Aᴍ Aʟɪᴠᴇ Mʏ Dᴇᴀʀ Pɪʀᴏ Mᴀsᴛᴇʀ 🙂 ...**")
 
