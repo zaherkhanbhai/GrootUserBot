@@ -1,21 +1,21 @@
-# Kang With Credit » @AdityaHalder
+#  @Groot_Network
 
 import random
 from typing import Tuple
 from pyrogram import Client
 from pyrogram import filters
 from traceback import format_exc
-from AdityaHalder.utilities.data import *
-from AdityaHalder.modules.helpers.filters import command
+from GrootNetwork.utilities.data import *
+from GrootNetwork.modules.helpers.filters import command
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import (
     InlineKeyboardButton,
     InlineQueryResultArticle,
     InputTextMessageContent,
     Message)
-from AdityaHalder.utilities.mongo import loveub_info, rlove, runlove
-from AdityaHalder.modules.helpers.decorators import errors, sudo_users_only
-from AdityaHalder.utilities.misc import SUDOERS
+from GrootNetwork.utilities.mongo import loveub_info, rlove, runlove
+from GrootNetwork.modules.helpers.decorators import errors, sudo_users_only
+from GrootNetwork.utilities.misc import SUDOERS
 
 
 async def iter_chats(client: Client):
