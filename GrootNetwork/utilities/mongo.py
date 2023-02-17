@@ -4,7 +4,7 @@ from GrootNetwork.utilities import dbb
 Rbun = dbb["RBAN"]
 
 
-async def rgroot(user, reason="#GALINAKODUKU"):
+async def rgroot(user, reason="#LANJAPUK"])"):
     await Rbun.insert_one({"user": user, "reason": reason})
 
 
