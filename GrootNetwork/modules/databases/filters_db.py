@@ -1,6 +1,6 @@
 from GrootNetwork.modules.databases import cli
 
-filter = cli["Groot"]["FILTER"]
+filter = cli["Rocket"]["FILTER"]
 
 
 async def add_filters(keyword, chat_id, message_id) -> None:
