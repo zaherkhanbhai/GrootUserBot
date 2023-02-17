@@ -3,11 +3,11 @@ from pyrogram import *
 from pyrogram import filters
 from pyrogram.types import *
 from pyrogram.errors import RPCError
-from AdityaHalder.modules.helpers.basics import edit_or_reply
-from AdityaHalder.modules.helpers.filters import command
-from AdityaHalder.modules.helpers.command import commandpro
-from AdityaHalder.modules.helpers.decorators import sudo_users_only, errors
-from AdityaHalder.utilities.misc import SUDOERS
+from GrootNetwork.modules.helpers.basics import edit_or_reply
+from GrootNetwork.modules.helpers.filters import command
+from GrootNetwork.modules.helpers.command import commandpro
+from GrootNetwork.modules.helpers.decorators import sudo_users_only, errors
+from GrootNetwork.utilities.misc import SUDOERS
 
 
 
