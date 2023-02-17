@@ -1,6 +1,6 @@
 from GrootNetwork.modules.databases import cli
 
-collection = cli["groot"]["rraid"]
+collection = cli["Groot"]["rraid"]
 
 
 async def rraid_user(chat):
