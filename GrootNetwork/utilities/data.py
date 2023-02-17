@@ -28,6 +28,26 @@ REPLY_RAID = [
     "కర్రీ లంజ"
     "ఇంత మంది దెంగుతున్న బలే దెంగిచుకుంటున్నావు ర నువ్వు"
     "న మడ్డ చీకు"
+    "𝗡𝗲𝗲 𝗽𝗲𝗹𝗹𝗮𝗻𝗶 𝘃𝗮𝗻𝗴𝗮𝗽𝗲𝘁𝘁𝗶 𝗱𝗲𝗻𝗴𝗮"
+    "𝗔𝗿𝗲𝘆 𝗻𝗶 𝗮𝗸𝗸𝗮 𝗽𝘂𝗸𝘂 𝗹𝗮𝗮 𝗯𝗲𝗲𝗿 𝗯𝗼𝘁𝘁𝗹𝗲 𝗽𝗲𝘁𝘁𝗶 𝗱𝗲𝗻𝗴𝗮"
+    "𝗦𝘂𝗹𝗹𝗶 𝗸𝗼𝘀𝗶 𝗰𝗵𝗲𝘁𝗵𝘂𝗹𝗼 𝗽𝗲𝗱𝘁𝗵𝗮 𝗹𝗮𝗻𝗷𝗮𝗸𝗼𝗱𝗮𝗸𝗮"
+    "𝗡𝗶 𝗮𝗸𝗸𝗮 𝗽𝗲𝗱𝗱𝗮 𝗹𝗮𝗻𝗷𝗮 𝗸𝗮𝗱𝗮 𝗮𝘃𝗮𝗿𝘁𝗵𝗼 𝗱𝗲𝗻𝗴𝗶𝗰𝗸𝘂𝗻𝘁𝘂𝗻𝗱𝗵𝗼 𝘃𝗲𝗹𝗹𝗶 𝗮𝗱𝘂𝗴𝘂"
+    "𝘃𝗼𝘁𝘁𝗮𝗹𝘂 𝗸𝗼𝘀𝗶 𝗽𝗮𝗱𝗲𝘀𝘁𝗵𝗮 😂"
+    "𝗡𝗶 𝗮𝗸𝗸𝗮 𝗻𝘂 𝗽𝗲𝗻𝘁𝗮𝘆𝘆𝗮 𝗱𝗲𝗻𝗴𝗮 😂"
+    "𝘃𝗮𝗰𝗵𝗶 𝗯𝗹𝗮𝗰𝗸 𝗰𝗮𝘁 𝘃𝗮𝗹𝗹𝗮 𝘀𝘂𝗹𝗹𝗶 𝗰𝗵𝗶𝗸𝘂"
+    "𝗻𝗶 𝗻𝗼𝘁𝗹𝗮 𝗝𝗼𝗵𝗻𝗻𝘆 𝘀𝗶𝗻𝘀 𝗺𝗼𝗱𝗱𝗮"
+    "𝗻𝗼𝘁𝗹𝗼 𝗺𝗼𝗱𝗱𝗮 𝗽𝗲𝘁𝘁𝘂𝗸𝘂𝗻𝗻𝗮𝘃𝗮 𝗺𝗮𝘁𝗹𝗮𝗱𝘂"
+    "𝘃𝗰 𝗸𝗶 𝗿𝗮 𝗹𝗮𝗻𝗷𝗮𝗺𝘂𝗻𝗱𝗮"
+    "𝗻𝗶 𝗽𝗲𝗹𝗹𝗮𝗻𝗶 𝗽𝗮𝗱𝗶 𝗺𝗮𝗻𝗱𝗶 𝗱𝗲𝗻𝗴𝗮"
+    "𝘃𝗲𝗿𝘆𝗮 𝗸𝗮𝗮𝗻𝗮𝗹𝘂 𝗯𝗼𝗸𝗸𝗮𝗿𝗮 𝗻𝗶𝗸𝘂"
+    "𝗸𝗼𝗷𝗷𝗮 𝗺𝘂𝗻𝗱𝗮"
+    "🇲 🇴 🇩 🇩 🇦   🇬 🇺 🇩 🇺 "
+    "🇸 🇺 🇱 🇱 🇮   🇨 🇭 🇮 🇰 🇺 "
+    "𝐠𝐚𝐣𝐣𝐢 𝐝𝐚𝐧𝐚"
+    "𝐧𝐢 𝐚𝐦𝐦𝐚𝐧𝐢 𝐠𝐚𝐣𝐣𝐢 𝐤𝐮𝐤𝐤𝐚 𝐝𝐞𝐧𝐠𝐚"
+    "𝐃𝐞𝐧𝐠𝐢𝐭𝐞 𝐋𝐁 𝐍𝐚𝐠𝐚𝐫 𝐥𝐨 𝐩𝐚𝐝𝐭𝐡𝐚𝐯"
+    "𝐍𝐢 𝐩𝐞𝐥𝐥𝐚𝐦 𝐩𝐮𝐤𝐮"
+    "𝐬𝐢𝐠𝐠𝐮𝐥𝐞𝐧𝐢 𝐲𝐚𝐝𝐡𝐚𝐯𝐚 𝐬𝐢𝐠𝐠𝐮 𝐫𝐚𝐝𝐞𝐧𝐭𝐫𝐚 𝐧𝐢𝐤𝐮"
     "MADARCHOD TERI MAA KI CHUT ME GHUTKA KHAAKE THOOK DUNGA 🤣🤣",
     "TERE BEHEN K CHUT ME CHAKU DAAL KAR CHUT KA KHOON KAR DUGA",
     "TERI VAHEEN NHI HAI KYA? 9 MAHINE RUK SAGI VAHEEN DETA HU 🤣🤣🤩",
@@ -105,20 +125,6 @@ REPLY_RAID = [
     "MADARCHOD",
     "BHOSDIKE",
     "LAAAWEEE KE BAAAAAL",
-    "MAAAAR KI JHAAAAT KE BBBBBAAAAALLLLL",
-    "MADRCHOD..",
-    "TERI MA KI CHUT..",
-    "LWDE KE BAAALLL.",
-    "MACHAR KI JHAAT KE BAAALLLL",
-    "TERI MA KI CHUT M DU TAPA TAP?",
-    "TERI MA KA BHOSDAA",
-    "TERI BHN SBSBE BDI RANDI.",
-    "TERI MA OSSE BADI RANDDDDD",
-    "TERA BAAP CHKAAAA",
-    "KITNI CHODU TERI MA AB OR..",
-    "TERI MA CHOD DI HM NE",
-    "TERI MA KE STH REELS BNEGA ROAD PEE",
-    "TERI MA KI CHUT EK DAM TOP SEXY",
     "MALUM NA PHR KESE LETA HU M TERI MA KI CHUT TAPA TAPPPPP",
     "LUND KE CHODE TU KEREGA TYPIN",
     "SPEED PKD LWDEEEE",
