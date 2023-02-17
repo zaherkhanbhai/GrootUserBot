@@ -2,7 +2,7 @@
 import asyncio
 from GrootNetwork.modules.databases import cli
 
-collection = cli["groot"]["pmpermit"]
+collection = cli["Groot"]["pmpermit"]
 
 PMPERMIT_MESSAGE = (
     "**ᴡᴀʀɴɪɴɢ!⚠️ ᴘʟᴢ ʀᴇᴀᴅ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴄᴀʀᴇꜰᴜʟʟʏ..\n\n**"
