@@ -97,12 +97,12 @@ def get_text(message: Message) -> [None, str]:
 @Client.on_message(command(["loveraid", "lraid", "lr"]) & SUDOERS)
 async def replyramd(client: Client, message: Message):
     await message.delete()
-    Groot = await message.reply_text("`Processing..`")
+    Rocket = await message.reply_text("`Processing..`")
     text_ = get_text(message)
     user, reason = get_user(message, text_)
     failed = 0
     if not user:
-        await Groot.edit("`Reply To User Or Mention To Activate LoveRaid `")
+        await Rocket.edit("`Reply To User Or Mention To Activate LoveRaid `")
         return
     try:
         userz = await client.get_users(user)
