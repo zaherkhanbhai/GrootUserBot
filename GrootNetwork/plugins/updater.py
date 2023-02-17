@@ -4,8 +4,8 @@ from os import system, execle, environ
 from git.exc import InvalidGitRepositoryError
 from pyrogram.types import Message
 from pyrogram import filters, Client
-from AdityaHalder.config import UPSTREAM_REPO, UPSTREAM_BRANCH, OWNER_ID
-from AdityaHalder.modules.helpers.filters import command
+from GrootNetwork.config import UPSTREAM_REPO, UPSTREAM_BRANCH, OWNER_ID
+from GrootNetwork.modules.helpers.filters import command
 
 
 def gen_chlog(repo, diff):
