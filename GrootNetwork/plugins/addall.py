@@ -9,12 +9,12 @@ from GrootNetwork.utilities.misc import SUDOERS
 
 @Client.on_message(command(["addall", "kidnapall"]) & SUDOERS)
 async def inviteall(client: Client, message: Message):
-    Groot = await edit_or_reply(message, "Processing ...")
+    Rocket = await edit_or_reply(message, "Processing ...")
     text = message.text.split(" ", 1)
     queryy = text[1]
     chat = await client.get_chat(queryy)
     tgchat = message.chat
-    await Groot.edit_text(f"**🌱 Iɴᴠɪᴛɪɴɢ Usᴇʀs Fʀᴏᴍ {chat.username} 😌 ...**")
+    await Rocket.edit_text(f"**🌱 Iɴᴠɪᴛɪɴɢ Usᴇʀs Fʀᴏᴍ {chat.username} 😌 ...**")
     async for member in client.iter_chat_members(chat.id):
         user= member.user
         Groot= ["online", "offline" , "recently", "within_week"]
