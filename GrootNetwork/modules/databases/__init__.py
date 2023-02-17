@@ -9,7 +9,7 @@ import motor.motor_asyncio
 from GrootNetwork.config import MONGO_DB_URL
 
 cli = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
-USERBOT = "GROOT"
+USERBOT = "ROCKET"
 
 
 class Database:
