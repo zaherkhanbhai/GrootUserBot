@@ -10,11 +10,11 @@ from pyrogram.types import (
     InlineQueryResultArticle,
     InputTextMessageContent,
     Message)
-from AdityaHalder.config import *
-from AdityaHalder.modules.helpers.filters import *
-from AdityaHalder.modules.helpers.decorators import errors, sudo_users_only
-from AdityaHalder.modules.helpers.program import get_arg
-from AdityaHalder.modules.helpers.admins import CheckAdmin
+from GrootNetwork.config import *
+from GrootNetwork.modules.helpers.filters import *
+from GrootNetwork.modules.helpers.decorators import errors, sudo_users_only
+from GrootNetwork.modules.helpers.program import get_arg
+from GrootNetwork.modules.helpers.admins import CheckAdmin
 
 
 @Client.on_message(command("gcast"))
