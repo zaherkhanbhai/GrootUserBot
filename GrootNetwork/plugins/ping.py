@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 from pyrogram import filters, Client
-from AdityaHalder.utilities.misc import SUDOERS
+from GrootNetwork.utilities.misc import SUDOERS
 # ping checker
 
 @Client.on_message(filters.command(["ping"], ["/", ".", "!"]) & SUDOERS)
