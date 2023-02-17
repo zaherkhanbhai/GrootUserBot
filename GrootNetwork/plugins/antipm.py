@@ -3,7 +3,7 @@ from pyrogram import filters, Client
 from pyrogram.methods import messages
 from GrootNetwork.modules.helpers.filters import command
 from GrootNetwork.modules.helpers.program import get_arg, denied_users
-import GrootNetwork.modules.databases.pmpermit_db as Groot
+import GrootNetwork.modules.databases.pmpermit_db as Rocket
 
 FLOOD_CTRL = 0
 ALLOWED = []
@@ -17,10 +17,10 @@ async def antipm(client, message):
         await message.edit("**I only understand on or off**")
         return
     if arg == "off":
-        await Groot.set_pm(False)
+        await Rocket.set_pm(False)
         await message.edit("**PM Guard Deactivated**")
     if arg == "on":
-        await Groot.set_pm(True)
+        await Rocket.set_pm(True)
         await message.edit("**PM Guard Activated**")
 
 
