@@ -1,6 +1,6 @@
 from GrootNetwork.modules.databases import cli
 
-collection = cli["groot"]["lraid"]
+collection = cli["Rocket"]["lraid"]
 
 
 async def lraid_user(chat):
