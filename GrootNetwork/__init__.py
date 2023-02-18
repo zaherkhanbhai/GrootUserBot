@@ -11,11 +11,11 @@ from rich.console import Console
 from rich.table import Table
 from motor.motor_asyncio import AsyncIOMotorClient as KaalXD
 
-from AdityaHalder.config import MONGO_DB_URL, LOG_GROUP_ID, OWNER_ID, STRING_SESSION, SUDO_USERS, UPSTREAM_BRANCH, UPSTREAM_REPO
-from AdityaHalder.modules.clientbot.clientbot import client, robot, pytgcalls
-from AdityaHalder.utilities.misc import sudo
-from AdityaHalder.utilities.times import time_to_seconds
-from AdityaHalder.utilities.tasks import install_requirements
+from Groot_Network.config import MONGO_DB_URL, LOG_GROUP_ID, OWNER_ID, STRING_SESSION, SUDO_USERS, UPSTREAM_BRANCH, UPSTREAM_REPO
+from Groot_Network.modules.clientbot.clientbot import client, robot, pytgcalls
+from Groot_Network.utilities.misc import sudo
+from Groot_Network.utilities.times import time_to_seconds
+from Groot_Network.utilities.tasks import install_requirements
 
 
 loop = asyncio.get_event_loop()
