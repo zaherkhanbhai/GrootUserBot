@@ -97,7 +97,7 @@ def get_text(message: Message) -> [None, str]:
    
 
 
-@Client.on_message(command(["replyraid", "rraid", "rr"]) & SUDOERS)
+@Client.on_message(command([".replyraid", ".rraid", ".rr"]) & SUDOERS)
 async def replyramd(client: Client, message: Message):
     Kaal = await message.reply_text("`Processing..`")
     text_ = get_text(message)
