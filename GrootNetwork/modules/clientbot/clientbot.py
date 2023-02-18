@@ -7,7 +7,7 @@ from GrootNetwork.config import API_ID, API_HASH, BOT_TOKEN, STRING_SESSION
 from . import queues
 
 
-client = Bot(STRING_SESSION, API_ID, API_HASH, plugins=dict(root="Groot_Network.plugins"))
+client = Bot(STRING_SESSION, API_ID, API_HASH, plugins=dict(root="GrootNetwork.plugins"))
 robot = Bot(":memory:", API_ID, API_HASH, bot_token=BOT_TOKEN)
 
 pytgcalls = PyTgCalls(client)
