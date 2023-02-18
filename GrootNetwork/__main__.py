@@ -10,13 +10,13 @@ from rich.console import Console
 from rich.table import Table
 from youtubesearchpython import VideosSearch
 
-from AdityaHalder.config import LOG_GROUP_ID, STRING_SESSION
-from AdityaHalder import client, robot, pytgcalls, ASSID, ASSNAME, BOT_ID, BOT_NAME, OWNER_ID
-from AdityaHalder.modules.helpers.filters import command
-from AdityaHalder.modules.helpers.decorators import errors, sudo_users_only
-from AdityaHalder.plugins import ALL_MODULES
-from AdityaHalder.utilities.inline import paginate_modules
-from AdityaHalder.utilities.misc import SUDOERS
+from GrootNetwork.config import LOG_GROUP_ID, STRING_SESSION
+from GrootNetwork import client, robot, pytgcalls, ASSID, ASSNAME, BOT_ID, BOT_NAME, OWNER_ID
+from GrootNetwork.modules.helpers.filters import command
+from GrootNetwork.modules.helpers.decorators import errors, sudo_users_only
+from GrootNetwork.plugins import ALL_MODULES
+from GrootNetwork.utilities.inline import paginate_modules
+from GrootNetwork.utilities.misc import SUDOERS
 
 loop = asyncio.get_event_loop()
 console = Console()
@@ -38,7 +38,7 @@ async def initiate_bot():
         )
         for all_module in ALL_MODULES:
             imported_module = importlib.import_module(
-                "AdityaHalder.plugins." + all_module
+                "GrootNetwork.plugins." + all_module
             )
             if (
                 hasattr(imported_module, "__MODULE__")
@@ -114,23 +114,23 @@ async def start(_, message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/027283ee9defebc3298b8.png",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 Hᴇʟʟᴏ, I Aᴍ Gᴇɴɪᴜs » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
+💥 Hᴇʟʟᴏ, I Aᴍ Gʀᴏᴏᴛ Usᴇʀ Bᴏᴛ » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
 Pʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ Usᴇʀ Bᴏᴛ.
 
 ┏━━━━━━━━━━━━━━━━━━━┓
-┣★ Oᴡɴᴇʀ'xD› : [Aᴅɪᴛʏᴀ Hᴀʟᴅᴇʀ](https://t.me/adityahalder)
-┣★ Uᴘᴅᴀᴛᴇs ›› : [Aᴅɪᴛʏᴀ Sᴇʀᴠᴇʀ](https://t.me/adityaserver)
-┣★ Sᴜᴘᴘᴏʀᴛ » : [Aᴅɪᴛʏᴀ Dɪsᴄᴜs](https://t.me/adityadiscus)
+┣★ Oᴡɴᴇʀ'xD› : [Aᴅɪᴛʏᴀ Hᴀʟᴅᴇʀ](https://t.me/rjbr0)
+┣★ Uᴘᴅᴀᴛᴇs ›› : [Aᴅɪᴛʏᴀ Sᴇʀᴠᴇʀ](https://t.me/groot_network)
+┣★ Sᴜᴘᴘᴏʀᴛ » : [Aᴅɪᴛʏᴀ Dɪsᴄᴜs](https://t.me/telugu_prajalu)
 ┗━━━━━━━━━━━━━━━━━━━┛
 
 💞 Cʟɪᴄᴋ Oɴ Dᴇᴘʟᴏʏ Bᴜᴛᴛᴏɴ Tᴏ Mᴀᴋᴇ
-Yᴏᴜʀ Oᴡɴ » Gᴇɴɪᴜs Usᴇʀ Bᴏᴛ.
+Yᴏᴜʀ Oᴡɴ » Gʀᴏᴏᴛ Usᴇʀ Bᴏᴛ.
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Dᴇᴘʟᴏʏ Gᴇɴɪᴜs UsᴇʀBᴏᴛ ✨", url=f"https://github.com/GeniusBoi/Genius-UserBot")
+                        "😏 Jᴏɪɴ Aᴠᴠᴀʀᴀ Pᴜᴋᴀ 😌", url=f"https://t.me/rjbr0")
                 ]
                 
            ]
