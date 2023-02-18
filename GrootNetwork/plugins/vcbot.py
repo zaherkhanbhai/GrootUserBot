@@ -44,7 +44,7 @@ from yt_dlp.utils import (
     UnavailableVideoError,
     XAttrMetadataError,
 )
-from AdityaHalder.utilities.misc import SUDOERS
+from Groot_Network.utilities.misc import SUDOERS
 # plus
 chat_id = None
 useer = "NaN"
