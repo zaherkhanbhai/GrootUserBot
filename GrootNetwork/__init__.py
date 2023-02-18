@@ -11,11 +11,11 @@ from rich.console import Console
 from rich.table import Table
 from motor.motor_asyncio import AsyncIOMotorClient as KaalXD
 
-from Groot_Network.config import MONGO_DB_URL, LOG_GROUP_ID, OWNER_ID, STRING_SESSION, SUDO_USERS, UPSTREAM_BRANCH, UPSTREAM_REPO
-from Groot_Network.modules.clientbot.clientbot import client, robot, pytgcalls
-from Groot_Network.utilities.misc import sudo
-from Groot_Network.utilities.times import time_to_seconds
-from Groot_Network.utilities.tasks import install_requirements
+from GrootNetwork.config import MONGO_DB_URL, LOG_GROUP_ID, OWNER_ID, STRING_SESSION, SUDO_USERS, UPSTREAM_BRANCH, UPSTREAM_REPO
+from GrootNetwork.modules.clientbot.clientbot import client, robot, pytgcalls
+from GrootNetwork.utilities.misc import sudo
+from GrootNetwork.utilities.times import time_to_seconds
+from GrootNetwork.utilities.tasks import install_requirements
 
 
 loop = asyncio.get_event_loop()
@@ -32,7 +32,7 @@ MOD_NOLOAD = []
 
 ### Mongo DB
 MONGODB_CLI = KaalXD(MONGO_DB_URL)
-db = MONGODB_CLI.Aditya
+db = MONGODB_CLI.Groot
 
 ### Sudo Users
 sudo()
